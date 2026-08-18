@@ -1,0 +1,8 @@
+name = "jozethdevbot-worker"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+# Las variables secretas (DISCORD_TOKEN, DISCORD_PUBLIC_KEY) NO van aquí.
+# Se configuran con:
+#   npx wrangler secret put DISCORD_TOKEN
+#   npx wrangler secret put DISCORD_PUBLIC_KEY
